@@ -1,0 +1,42 @@
+CTYPE html>
+<html>
+	<head>
+		<title>Projet</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/projet.css"> 
+
+	</head>
+	<body>
+ 
+		<section class="container-12">
+				<article class= "hide"></article>
+				<article class="hide"> </article>
+				<article class="item-triple"><img class="header-logo"src="content/logo.png" alt=""></article>
+				<article class="hide"></article>
+				<article class="hide"></article>
+				<article class="item-triple"><form method="post" action="traitement.php">
+				<p class="search"><input  class="searchbar" type="text" name="pseudo" id="pseudo" placeholder="Que recherchez vous?" /><input class="ok" type="submit" value="OK" /> </p>
+			</form></article>
+				
+			
+		</section> 
+
+		<section class="container-12">
+				<article>Flex item <b>1/6</b></article>
+				<article>Flex item <b>1/6</b></article>
+				<article class="item-double center">Accueil</article>
+				
+				<article>Meubles</article>
+				<article class="item-double center">Luminaires</article>
+				<article >Accessoires</article>
+				 
+				<article class="item-double center">Contact</article>
+		</section> 
+
+		<section >
+				 <article  class="here" ><label class="here-item">Vous êtes ici:</label><span class="here-item">CHAISES</span></article>
+			 
+		</section> 
+	</body>
+</html>
+
