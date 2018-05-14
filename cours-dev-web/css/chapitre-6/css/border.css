@@ -1,0 +1,130 @@
+body {
+    counter-reset: titre;
+    padding: 10px;
+    width: 100%;
+}
+
+h1, h2{
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+section:after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+div{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 25px;
+    float: left;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section:first-of-type div:first-of-type {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+}
+
+section:first-of-type div:nth-of-type(2) {
+    border-width: 1px;
+    border-style: dotted;
+    border-color: #000;
+}
+
+section:first-of-type div:nth-of-type(3) {
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #000;
+}
+
+section:first-of-type div:nth-of-type(4) {
+    border-width: 3px;
+    border-style: double;
+    border-color: #000;
+}
+
+section:first-of-type div:nth-of-type(5) {
+    border-width: 10px;
+    border-style: groove;
+    border-color: #9e9e9e;
+}
+section:first-of-type div:nth-of-type(6) {
+    border-width: 10px;
+    border-style: ridge;
+    border-color: #9e9e9e;
+}
+
+section:first-of-type div:nth-of-type(7) {
+    border-width: 10px;
+    border-style: inset;
+    border-color: #9e9e9e;
+}
+
+section:first-of-type div:nth-of-type(8) {
+    border-width: 10px;
+    border-style: outset;
+    border-color: #9e9e9e;
+}
+
+.bor-img{
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
+    margin: 40px auto;
+    border-image-source: url(../img/border-hv.png);
+    border-image-slice: 100%;
+    border-image-repeat: stretch;
+    border-style:solid;
+    border-width:30px;
+    float: none;
+
+}
+.bor-img-2{
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
+    margin: 40px auto;
+    border-image-slice: 10;
+    border-image-width: 0.5;
+    border-image-source: url(../img/border-hv.png);
+    border-style:solid;
+    border-width: 30px;
+    float: none;
+
+}
+.bor-img-3{
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
+    margin: 40px auto;
+    border-image-slice: 30;
+    border-image-width: 10px;
+    border-image-source: url(../img/border-hv.png);
+    border-style: solid;
+    border-width: 30px;
+    float: none;
+}
+.bor-img-4{
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
+    margin: 40px auto;
+    border-image-source: url(../img/border-hv.png);
+    border-image-repeat: repeat;
+    border-style: solid;
+    border-width: 30px;
+    float: none;
+    border-image-slice: 100 fill;
+    border-image-width: 55px;
+}
